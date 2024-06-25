@@ -4,7 +4,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="logo  flex-1-1">
           <nuxt-link :to="items[0].slug" class="d-block">
-            <img src="~/assets/images/crossing_manzoni_LOGO_1x.png" class="img-fluid">
+            <img src="~/assets/images/crossing_the_rock_LOGO_1x.png" class="img-fluid">
           </nuxt-link>
 
         </div>

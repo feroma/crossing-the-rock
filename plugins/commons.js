@@ -89,7 +89,7 @@ Vue.mixin({
       let development = process.env.NODE_ENV !== 'production'
       // let base = development ? '/' : '/crossing-manzoni/'
       //return  development ?  '/photos' : 'https://www.crossingmanzoni.it/photos'
-      return 'https://www.stage72.info/crossing-manzoni/_repo'
+      return 'https://www.stage72.info/crossing-the-rock/_repo'
     },
     mediaModal(){
       return this.$store.getters.getMediaModal

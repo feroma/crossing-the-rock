@@ -6,7 +6,7 @@ let base = development ? '/' : '/crossing-the-rock/'
 //let baseURL = development  ? "http://data-crossing.local/" : 'https://www.stage72.info/crossing-manzoni/api/'
 
 // let base = development ? '/' : '/cm_dev/'
-let baseURL = development  ? "data-crossing-the-rock.local" : 'https://www.stage72.info/crossing-the-rock/api/'
+let baseURL = development  ? "http://data-crossing-the-rock.local" : 'https://www.stage72.info/crossing-the-rock/api/'
 import axios from 'axios'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head

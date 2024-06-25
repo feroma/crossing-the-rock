@@ -123,7 +123,7 @@
 
 
             <p>
-              <a class="text-gray-6" href="mailto:info@crossingmanzoni.com">info@crossingmanzoni.com</a><br>
+              <a class="text-gray-6" href="mailto:info@crossingtherock.com">info@crossingtherock.com</a><br>
               <br>
               +39 02.50065416
             </p>
@@ -139,7 +139,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 logo-line">
-            <img src="~/assets/images/crossing_manzoni_LOGO_1x.png" class="img-fluid">
+            <img src="~/assets/images/crossing_the_rock_LOGO_1x.png" class="img-fluid">
           </div>
 <!--          <div class="col-12 col-sm-6">-->
 <!--            <p class="pr-sm-5" v-html="contents.section5.par1"/>-->
@@ -157,7 +157,7 @@
 
           </div>
           <div class="col-12 col-sm-3">
-            <p><a class="text-gray-1" href="mailto:info@crossingmanzoni.com">info@crossingmanzoni.com</a><br>
+            <p><a class="text-gray-1" href="mailto:info@crossingtherock.com">info@crossingtherock.com</a><br>
               <br>
               Tel.: +39 02.50065416
               <br>
@@ -201,7 +201,7 @@ export default {
     ImageBaseUrl () {
       let development = process.env.NODE_ENV !== 'production'
      // let base = development ? '/' : '/crossing-manzoni/'
-      return  development ?  '/photos' : 'https://www.crossingmanzoni.it/photos'
+      return  development ?  '/photos' : 'https://www.crossingtherock.it/photos'
     },
 
     gallery () {

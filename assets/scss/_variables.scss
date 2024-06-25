@@ -62,8 +62,8 @@
  */
 @font-face {
   font-family: 'cc-serif';
-  src: url('../fonts/serif/Juana-LightIt.woff2') format('woff2'),
-  url('../fonts/serif/Juana-LightIt.woff') format('woff');
+  src: url('../fonts/serif/Cagliari-LightIt.woff2') format('woff2'),
+  url('../fonts/serif/Cagliari-LightIt.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -71,8 +71,8 @@
 
 @font-face {
   font-family: 'cc-serif';
-  src: url('../fonts/serif/Juana-Light.woff2') format('woff2'),
-  url('../fonts/serif/Juana-Light.woff') format('woff');
+  src: url('../fonts/serif/Cagliari-Light.woff2') format('woff2'),
+  url('../fonts/serif/Cagliari-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -80,8 +80,8 @@
 
 @font-face {
   font-family: 'cc-serif';
-  src: url('../fonts/serif/Juana-ExtraLight.woff2') format('woff2'),
-  url('../fonts/serif/Juana-ExtraLight.woff') format('woff');
+  src: url('../fonts/serif/Cagliari-ExtraLight.woff2') format('woff2'),
+  url('../fonts/serif/Cagliari-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -89,8 +89,8 @@
 
 @font-face {
   font-family: 'cc-serif';
-  src: url('../fonts/serif/Juana-ExtraLightIt.woff2') format('woff2'),
-  url('../fonts/serif/Juana-ExtraLightIt.woff') format('woff');
+  src: url('../fonts/serif/Cagliari-ExtraLightIt.woff2') format('woff2'),
+  url('../fonts/serif/Cagliari-ExtraLightIt.woff') format('woff');
   font-weight: 200;
   font-style: italic;
   font-display: swap;
@@ -107,8 +107,8 @@ $gray-3: #AFA796;
 $gray-4: #707070;
 $gray-5: #403F3C;
 $gray-6: #242220;
-$brick: #80352D;
-$brick-light: #D37B65;
+$brick: #6a8ea4;
+$brick-light: #a9c5d9;
 $black: #000;
 $cc_colors: ();
 $cc_colors: map-merge(

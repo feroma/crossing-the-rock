@@ -1,36 +1,126 @@
 @font-face {
-    font-family: 'cc-serif';
-    src: url('../fonts/serif/Juana-LightIt.woff2') format('woff2'),
-        url('../fonts/serif/Juana-LightIt.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'cc-serif';
-    src: url('../fonts/serif/Juana-Light.woff2') format('woff2'),
-        url('../fonts/serif/Juana-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'cc-serif';
-    src: url('../fonts/serif/Juana-ExtraLight.woff2') format('woff2'),
-        url('../fonts/serif/Juana-ExtraLight.woff') format('woff');
+    font-family: 'Cagliari';
+    src: url('Cagliari-ExtraLight.woff2') format('woff2'),
+        url('Cagliari-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'cc-serif';
-    src: url('../fonts/serif/Juana-ExtraLightIt.woff2') format('woff2'),
-        url('../fonts/serif/Juana-ExtraLightIt.woff') format('woff');
+    font-family: 'Cagliari ExtraLight It';
+    src: url('Cagliari-ExtraLightIt.woff2') format('woff2'),
+        url('Cagliari-ExtraLightIt.woff') format('woff');
     font-weight: 200;
     font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-Light.woff2') format('woff2'),
+        url('Cagliari-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari Light It';
+    src: url('Cagliari-LightIt.woff2') format('woff2'),
+        url('Cagliari-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari It';
+    src: url('Cagliari-RegularIt.woff2') format('woff2'),
+        url('Cagliari-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-SemiBold.woff2') format('woff2'),
+        url('Cagliari-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-Regular.woff2') format('woff2'),
+        url('Cagliari-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari SemiBold It';
+    src: url('Cagliari-SemiBoldIt.woff2') format('woff2'),
+        url('Cagliari-SemiBoldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari Thin It';
+    src: url('Cagliari-ThinIt.woff2') format('woff2'),
+        url('Cagliari-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-Thin.woff2') format('woff2'),
+        url('Cagliari-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-Bold.woff2') format('woff2'),
+        url('Cagliari-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari Bold It';
+    src: url('Cagliari-BoldIt.woff2') format('woff2'),
+        url('Cagliari-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari ExtraBold It';
+    src: url('Cagliari-ExtraBoldIt.woff2') format('woff2'),
+        url('Cagliari-ExtraBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cagliari';
+    src: url('Cagliari-ExtraBold.woff2') format('woff2'),
+        url('Cagliari-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
     font-display: swap;
 }
 

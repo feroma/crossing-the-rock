@@ -12,9 +12,9 @@
       <span class="h3 mb-1 text-serif text-white">
         {{room.label}}
       </span>
-      <span class="p mb-0 text-sans text-white">
-        {{room.cat_info.label}}
-      </span>
+<!--      <span class="p mb-0 text-sans text-white">-->
+<!--        {{room.cat_info.label}}-->
+<!--      </span>-->
     </span>
 
 

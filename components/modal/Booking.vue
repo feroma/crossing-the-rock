@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="logo d-none d-sm-block">
-            <img src="~/assets/images/crossing_manzoni_LOGO_1x.png" class="img-fluid">
+            <img src="~/assets/images/crossing_the_rock_LOGO_1x.png" class="img-fluid">
           </div>
           <!--          <language-switcher/>-->
           <close @click.native.stop.prevent="toggleModal" class="ml-auto"/>

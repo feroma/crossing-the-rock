@@ -158,7 +158,7 @@ export default {
 
       }else{
         this.thisMetas = {
-          title:'Crossing Manzoni',
+          title:'Crossing The Rock',
           meta:[],
         }
       }
@@ -170,12 +170,12 @@ export default {
         {
           hid:'url',
           name:'url',
-          content:'https://www.crossingmanzoni.it'+this.navItem.slug,
+          content:'https://www.crossingtherock.it'+this.navItem.slug,
         },
         {
           hid:'og:url',
           name:'og:url',
-          content:'https://www.crossingmanzoni.it'+this.navItem.slug,
+          content:'https://www.crossingtherock.it'+this.navItem.slug,
         }
       )
     }

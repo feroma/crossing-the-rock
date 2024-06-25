@@ -580,7 +580,7 @@ $col4_col2: 33.6538%;
     background-image: url("../images/bg_footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
   }
 
   a {
@@ -702,6 +702,17 @@ $col4_col2: 33.6538%;
     }
   }
 
+}
+
+#menu-modal{
+  .d-flex{
+    li{
+      @include media-breakpoint-up(sm) {
+        flex: 1 1 50%;
+        min-width: 50%;
+      }
+    }
+  }
 }
 
 .menu-book-block{
