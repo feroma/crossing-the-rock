@@ -1,8 +1,11 @@
 <template>
   <component :is="itemTag" class="contact-item d-flex align-items-start" :class="itemClass">
-    <component
-      v-if="item.icon"
-     :is="'icon-'+item.icon"/>
+
+      <component
+        v-if="item.icon"
+        :is="'icon-'+item.icon"/>
+      <div v-else class="contact-item-icon icon empty"></div>
+
     <div class="pt-1">
 <!--      <arrow-label-->
 <!--        v-if="(item.title && item.title.content )"-->

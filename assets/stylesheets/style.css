@@ -8113,7 +8113,7 @@ h4, .h4 {
       stroke: white !important; }
 
 .contact-item .icon {
-  max-width: 96px;
+  width: 96px;
   padding-right: 15px; }
   .contact-item .icon svg {
     width: 100%;

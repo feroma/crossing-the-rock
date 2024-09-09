@@ -80,7 +80,7 @@
 
             <div class="col-12 border-top py-2">
               <div class="text-center text-sm-right text-white pb-5 pb-sm-3">
-                Copyright Crossing The Rock - All right reserved -  P.IVA.: 04678170871 - CIN: IT087004B4DDUYF933
+                {{ footer_labels[3] }}
               </div>
             </div>
 

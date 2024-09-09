@@ -1636,8 +1636,9 @@ $table_border: solid 1px $gray-5;
 //}
 .contact-item {
   .icon {
-    max-width: 96px;
+    width: 96px;
     padding-right: 15px;
+
 
     svg {
       width: 100%;
