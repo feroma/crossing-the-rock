@@ -59,7 +59,7 @@ export default {
         "arrows": true,
         "dots": true,
         //"dotsClass": "slick-dots custom-dot-class",
-        "centerMode": true,
+        "centerMode": false,
         "centerPadding": "48px",
         "focusOnSelect": true,
         "infinite": true,

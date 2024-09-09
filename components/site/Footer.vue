@@ -49,8 +49,8 @@
                 <div class="col-12 col-sm-4">
                   <p class="d-inline-block   text-center text-sm-left mr-sm-2 text-gray-1  d-block  pr-sm-3">
                     <span v-html="contacts.address"/>
-                    <br>
-                    <span v-html="contacts.email"/>
+<!--                    <br>-->
+<!--                    <span v-html="contacts.email"/>-->
                   </p>
                 </div>
                 <div class="col-12 col-sm-4">
@@ -72,15 +72,15 @@
             <div class="col-12 border-top py-2">
               <p class="text-gray-1 text-center mb-1 d-block">{{ footer_labels[2] }}</p>
               <p class="d-flex flex-column flex-sm-row  align-items-center justify-content-center">
-                <img src="~/assets/images/mr_mrs_smith.png" class="img-fluid m-1">
-                <img src="~/assets/images/XO-logo-sRGB_0.png" class="img-fluid m-1">
-                <img src="~/assets/images/aficionados.png" class="img-fluid m-1">
+                <img src="~/assets/images/thethinkingtraveller.png" class="img-fluid m-1">
+<!--                <img src="~/assets/images/XO-logo-sRGB_0.png" class="img-fluid m-1">-->
+<!--                <img src="~/assets/images/aficionados.png" class="img-fluid m-1">-->
               </p>
             </div>
 
             <div class="col-12 border-top py-2">
               <div class="text-center text-sm-right text-white pb-5 pb-sm-3">
-                Copyright Crossing Manzoni - All right reserved -  P.IVA.: 05950050871
+                Copyright Crossing The Rock - All right reserved -  P.IVA.: 04678170871 - CIN: IT087004B4DDUYF933
               </div>
             </div>
 

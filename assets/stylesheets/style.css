@@ -70,6 +70,18 @@
   font-weight: 200;
   font-style: italic;
   font-display: swap; }
+@font-face {
+  font-family: 'cc-serif';
+  src: url("../fonts/serif/Cagliari-Regular.woff2") format("woff2"), url("../fonts/serif/Cagliari-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'cc-serif';
+  src: url("../fonts/serif/Cagliari-RegularIt.woff2") format("woff2"), url("../fonts/serif/Cagliari-RegularIt.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
 /**
 ----------------------------CROSSING COLORS
  */
@@ -7036,7 +7048,7 @@ h1, .h1 {
   font-size: 42px;
   line-height: 50px;
   margin-bottom: 0px;
-  font-weight: 200; }
+  font-weight: 400; }
   @media (min-width: 1360px) {
     h1, .h1 {
       font-size: 48px;
@@ -7766,7 +7778,7 @@ h4, .h4 {
     border-top: none;
     border-left: solid 1px #403F3C; } }
 
-.sentence {
+.sentence.bordered {
   border-bottom: solid 1px #403F3C; }
 
 .bordered-list {
@@ -8097,6 +8109,8 @@ h4, .h4 {
       opacity: 1;
       background-color: #6a8ea4;
       border-color: #6a8ea4 !important; }
+    .arrow-label:hover .arrow-right path {
+      stroke: white !important; }
 
 .contact-item .icon {
   max-width: 96px;

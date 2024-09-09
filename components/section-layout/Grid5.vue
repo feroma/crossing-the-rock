@@ -8,7 +8,7 @@
         <div class="col-12 col-sm-4 mb-xs-gutter">
           <picture-wrapper v-if="section.items[0].filename" :item="section.items[0]"></picture-wrapper>
           <div class="sentence d-flex align-items-center p-3 p-lg-5 h-100" v-else>
-            <div class="text-serif h3 text-gray-5 text-center" v-html="section.items[0].html"></div>
+            <div :class="section.items[0].class" v-html="section.items[0].html"></div>
           </div>
         </div>
 

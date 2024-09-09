@@ -42,7 +42,7 @@ h1, .h1 {
   font-size: 42px;
   line-height: 50px;
   margin-bottom: 0px;
-  font-weight: 200;
+  font-weight: 400;
   @include media-breakpoint-up(lg) {
     font-size: 48px;
     line-height: 52px;
@@ -70,6 +70,7 @@ h1, .h1 {
 }
 h2, .h2 {
   @extend .text-serif;
+
   font-size: 30px;
   line-height: 32px;
   margin-bottom: 28px;
@@ -1142,7 +1143,9 @@ $col4_col2: 33.6538%;
 }
 
 .sentence {
-  border-bottom: solid 1px $gray-5;
+  &.bordered{
+    border-bottom: solid 1px $gray-5;
+  }
 }
 
 .bordered-list {
@@ -1611,6 +1614,11 @@ $table_border: solid 1px $gray-5;
       opacity: 1;
       background-color: $brick;
       border-color: $brick !important;
+    }
+    .arrow-right{
+      path{
+        stroke: white!important;
+      }
     }
   }
 
