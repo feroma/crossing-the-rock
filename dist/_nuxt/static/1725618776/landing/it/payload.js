@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/landing/it", {data:[{}],fetch:{},mutations:[["UPDATE_CURRENT_LANG","it"]]});
