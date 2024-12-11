@@ -3,7 +3,7 @@
     <div class="map-col mb-3">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-small position-relative">
+          <div class="col-small-2 position-relative">
             <picture-wrapper
               v-if="section.image"
               :item="section.image">

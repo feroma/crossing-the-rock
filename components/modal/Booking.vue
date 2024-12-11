@@ -27,7 +27,7 @@
             <no-ssr>
             <div class="booking-date2">
 
-              <v-date-picker
+<!--              <v-date-picker
                 color="orange"
                 :locale="currentLang"
                 is-dark
@@ -41,14 +41,14 @@
                     readonly
                   />
                 </template>
-              </v-date-picker>
+              </v-date-picker>-->
               <div class="p">{{ labels[1] }}</div>
             </div>
 
 
             <div class="booking-date2">
 
-              <v-date-picker
+<!--              <v-date-picker
                 color="orange"
                 :locale="currentLang"
                 is-dark
@@ -62,7 +62,7 @@
                     readonly
                   />
                 </template>
-              </v-date-picker>
+              </v-date-picker>-->
               <div class="p">{{ labels[2] }}</div>
 
             </div>
@@ -89,7 +89,7 @@
               </div>
             </div>
             <no-ssr v-if="$screens">
-              <v-date-picker
+<!--              <v-date-picker
                 v-model="selectedDate"
                 @input="closeAlert"
                 @drag="closeAlert"
@@ -101,7 +101,7 @@
                 :locale="currentLang"
                 is-dark
                 is-range
-              />
+              />-->
             </no-ssr>
             </span>
 

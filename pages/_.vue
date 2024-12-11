@@ -91,8 +91,10 @@ export default {
   created () {
     console.log('=================================================')
     this.show = false
+
     this.$fetch()
   },
+
   methods: {
     checkRoute (route) {
       this.path = route.fullPath.split('/')
@@ -223,6 +225,15 @@ export default {
           this.$nextTick(() => {
             this.updateMetas()
             this.show = true
+            /*this.$nextTick(() => {
+              setTimeout(()=>{
+                if(window){
+                  window.scrollTo(0, 0)
+                }
+              },200)
+
+            })*/
+
           })
         }
 
@@ -233,7 +244,8 @@ export default {
         // this.$router.push('/')
       })
 
-  }
+  },
+
 
 }
 </script>

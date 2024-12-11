@@ -1,8 +1,10 @@
 <template>
-  <a href="#" class="book-link" @click.stop.prevent="openBooking">
+<!--  <a href="#" class="book-link" @click.stop.prevent="openBooking">
+    BOOK NOW
+  </a>-->
+  <a href="https://www.thethinkingtraveller.com/italy/sicily/villas/crossing-the-rock" class="book-link" target="_blank">
     BOOK NOW
   </a>
-
 </template>
 
 <script>

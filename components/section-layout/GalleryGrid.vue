@@ -1,9 +1,9 @@
 <template>
-  <component :is="sectionTag" :class="sectionClass" >
+  <component :is="sectionTag" :class="sectionClass">
 
     <div class="container bg-white">
       <div class="row d-sm-none">
-        <div class="col-12 col-sm-4" >
+        <div class="col-12 col-sm-4">
           <component
             v-for="(item,count)  in section.items"
             v-if="item.layout"
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="row justify-content-center d-none d-sm-flex">
-        <div class="col-12 col-sm-4" >
+        <div class="col-12 col-sm-4">
           <component
             v-for="(item,count)  in section.items"
             v-if="item.layout && item.col && item.col===1"
@@ -27,7 +27,7 @@
           </component>
 
         </div>
-        <div class="col-12 col-sm-4" >
+        <div class="col-12 col-sm-4">
           <component
             v-for="(item,count)  in section.items"
             v-if="item.layout && item.col && item.col===2"
@@ -37,7 +37,7 @@
             :item="item">
           </component>
         </div>
-        <div class="col-12 col-sm-4" >
+        <div class="col-12 col-sm-4">
           <component
             v-for="(item,count)  in section.items"
             v-if="item.layout && item.col && item.col===3"
@@ -48,27 +48,26 @@
           </component>
 
         </div>
-<!--        <div class="col-12 col-sm-4"  v-if="section.col2">-->
-<!--          <component-->
-<!--            v-for="(item,count)  in section.col2"-->
-<!--            v-if="item.layout"-->
-<!--            :is="'layout-'+item.layout"-->
-<!--            :key="'item-'+count"-->
-<!--            :index="count"-->
-<!--            :item="item">-->
-<!--          </component>-->
-<!--        </div>-->
-<!--        <div class="col-12 col-sm-4" v-if="section.col3">-->
-<!--          <component-->
-<!--            v-if="item.layout"-->
-<!--            v-for="(item,count)  in section.col3"-->
-<!--            :is="'layout-'+item.layout"-->
-<!--            :key="'item-'+count"-->
-<!--            :index="count"-->
-<!--            :item="item">-->
-<!--          </component>-->
+        <!--        <div class="col-12 col-sm-4"  v-if="section.col2">-->
+        <!--          <component-->
+        <!--            v-for="(item,count)  in section.col2"-->
+        <!--            v-if="item.layout"-->
+        <!--            :is="'layout-'+item.layout"-->
+        <!--            :key="'item-'+count"-->
+        <!--            :index="count"-->
+        <!--            :item="item">-->
+        <!--          </component>-->
+        <!--        </div>-->
+        <!--        <div class="col-12 col-sm-4" v-if="section.col3">-->
+        <!--          <component-->
+        <!--            v-if="item.layout"-->
+        <!--            v-for="(item,count)  in section.col3"-->
+        <!--            :is="'layout-'+item.layout"-->
+        <!--            :key="'item-'+count"-->
+        <!--            :index="count"-->
+        <!--            :item="item">-->
+        <!--          </component>-->
 
-        </div>
       </div>
     </div>
 

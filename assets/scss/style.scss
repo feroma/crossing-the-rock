@@ -39,8 +39,8 @@ body {
 
 h1, .h1 {
   @extend .text-serif;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 36px;
+  line-height: 42px;
   margin-bottom: 0px;
   font-weight: 400;
   @include media-breakpoint-up(lg) {
@@ -50,7 +50,9 @@ h1, .h1 {
   @include media-breakpoint-up(xl) {
     font-size: 60px;
     line-height: 68px;
-
+  }
+  &.text-white{
+    text-shadow: 0px 0px 14px $brick-dark;
   }
 }
 .h1b {
@@ -86,7 +88,7 @@ h2, .h2 {
   }
 }
 
-.h3 {
+h3, .h3 {
   font-size: 22px;
   line-height: 26px;
   @include media-breakpoint-up(lg) {
@@ -510,21 +512,30 @@ $col4_col2: 33.6538%;
     span, a {
       display: block;
       padding: 15px 15px;
+      @include media-breakpoint-up(xl) {
+        padding: 15px 30px;
+      }
       // height: 50px;
       // display: flex;
       // align-items: center;
       @extend .text-gray-1;
-      text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.85);
+
       font-weight: normal;
     }
 
+    a{
+      text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.85);
+    }
     span {
-      opacity: 0.5;
+      opacity: 1;
+      background-color: $brick;
+      border-radius: 25px;
+      color: white;
     }
 
     .divisore {
       width: 1px;
-
+      display: none;
       @extend .bg-gray-1
     }
 
@@ -541,6 +552,7 @@ $col4_col2: 33.6538%;
 
     display: flex;
     align-items: center;
+    margin-left: 15px;
 
     svg {
       width: 100%;
@@ -1116,7 +1128,17 @@ $col4_col2: 33.6538%;
     max-width: 80%;
   }
 }
-
+.col-small-2 {
+  flex: 0 0 100%;
+  @include media-breakpoint-up(sm) {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  @include media-breakpoint-up(xl) {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
 .feature-list {
   @include media-breakpoint-up(sm) {
     display: flex;
@@ -1143,9 +1165,16 @@ $col4_col2: 33.6538%;
 }
 
 .sentence {
-  &.bordered{
+  &.bordered-top{
+    border-top: solid 1px $gray-5;
+  }
+  &.bordered-bottom{
     border-bottom: solid 1px $gray-5;
   }
+  @include media-breakpoint-up(sm) {
+
+  }
+
 }
 
 .bordered-list {
@@ -1779,10 +1808,10 @@ section {
 }
 
 .bg-pattern-2 {
-  background-image: url("../images/pattern_2c.png");
-  //@include media-breakpoint-up(md) {
-  //  background-image: url("../images/pattern2.png");
-  //}
+
+  @include media-breakpoint-up(sm) {
+    background-image: url("../images/pattern_2c.png");
+  }
   //background-position: 76% 0%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2252,4 +2281,32 @@ $topGapMd: 160px;
 
 .grayscale{
   filter:grayscale(100%)
+}
+.spanned-lines{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p{
+    display: flex;
+    width: 100%;
+    flex: 1 1 100%;
+    max-width: 550px;
+    span, strong {
+      flex-grow: 0;
+      display: block;
+      white-space: nowrap;
+    }
+    strong{
+      min-width: 140px;
+      text-align: left;
+    }
+    .line{
+      display: block;
+      flex:1 1 50%;
+      border-bottom: dotted 1px $gray-3;
+      margin: 0 15px;
+    }
+  }
 }

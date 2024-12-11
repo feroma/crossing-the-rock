@@ -47,6 +47,7 @@ export default {
   plugins: [
     '~/plugins/axios',
     '~/plugins/commons',
+    '~/plugins/scroll-to-top.js',
     { src: '~plugins/v-calendar.js', ssr: false, mode: 'client' },
     {
       src: "~/plugins/locomotiveScroll.js",
@@ -66,7 +67,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/robots',
-    '@nuxtjs/sitemap'
+   // '@nuxtjs/sitemap'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

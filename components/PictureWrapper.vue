@@ -55,10 +55,18 @@ export default {
   // },
   computed: {
     smallSource() {
-      return this.ImageBaseUrl+'/sm/'+this.item.filename
+      let imageBaseUrl = this.ImageBaseUrl
+      if(this.item.imageBaseUrl){
+        imageBaseUrl =this.item.imageBaseUrl
+      }
+      return imageBaseUrl+'/sm/'+this.item.filename
     },
     largeSource() {
-      return this.ImageBaseUrl+'/lg/'+this.item.filename
+      let imageBaseUrl = this.ImageBaseUrl
+      if(this.item.imageBaseUrl){
+        imageBaseUrl =this.item.imageBaseUrl
+      }
+      return imageBaseUrl+'/lg/'+this.item.filename
     },
 
 
