@@ -3,35 +3,30 @@
     "name": "call",
     "path": "/call",
     "component": "D:\\\\htdocs\\\\crossing-the-rock\\\\pages\\\\call.vue",
-    "chunkName": "pages/call",
-    "_name": "_5fefc6e1"
+    "chunkName": "pages/call"
   },
   {
     "name": "landing",
     "path": "/landing",
     "component": "D:\\\\htdocs\\\\crossing-the-rock\\\\pages\\\\landing\\\\index.vue",
-    "chunkName": "pages/landing/index",
-    "_name": "_ab5f10c4"
+    "chunkName": "pages/landing/index"
   },
   {
     "name": "OLD",
     "path": "/OLD",
     "component": "D:\\\\htdocs\\\\crossing-the-rock\\\\pages\\\\OLD.vue",
-    "chunkName": "pages/OLD",
-    "_name": "_57de46d4"
+    "chunkName": "pages/OLD"
   },
   {
     "name": "landing-it",
     "path": "/landing/it",
     "component": "D:\\\\htdocs\\\\crossing-the-rock\\\\pages\\\\landing\\\\it.vue",
-    "chunkName": "pages/landing/it",
-    "_name": "_e9bbece2"
+    "chunkName": "pages/landing/it"
   },
   {
     "name": "all",
     "path": "/*",
     "component": "D:\\\\htdocs\\\\crossing-the-rock\\\\pages\\\\_.vue",
-    "chunkName": "pages/_",
-    "_name": "_1ea7db28"
+    "chunkName": "pages/_"
   }
 ]
