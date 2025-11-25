@@ -20,6 +20,7 @@ import nuxt_plugin_commons_1f7547b2 from 'nuxt_plugin_commons_1f7547b2' // Sourc
 import nuxt_plugin_scrolltotop_1c37048a from 'nuxt_plugin_scrolltotop_1c37048a' // Source: ..\\plugins\\scroll-to-top.js (mode: 'all')
 import nuxt_plugin_vcalendar_5419a6aa from 'nuxt_plugin_vcalendar_5419a6aa' // Source: ..\\plugins\\v-calendar.js (mode: 'client')
 import nuxt_plugin_locomotiveScroll_749f05df from 'nuxt_plugin_locomotiveScroll_749f05df' // Source: ..\\plugins\\locomotiveScroll.js (mode: 'client')
+import nuxt_plugin_gtmconsentclient_7a207c55 from 'nuxt_plugin_gtmconsentclient_7a207c55' // Source: ..\\plugins\\gtm-consent.client.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -87,7 +88,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"crossing-the-rock","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"apple-touch-icon","sizes":"57x57","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-57x57.png"},{"rel":"apple-touch-icon","sizes":"60x60","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-60x60.png"},{"rel":"apple-touch-icon","sizes":"72x72","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-72x72.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-76x76.png"},{"rel":"apple-touch-icon","sizes":"114x114","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-114x114.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-120x120.png"},{"rel":"apple-touch-icon","sizes":"144x144","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-144x144.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-152x152.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-180x180.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Fimg\u002Ffavicon\u002Fandroid-icon-192x192.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-32x32.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"96x96","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-96x96.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-16x16.png"}],"style":[],"script":[]},
+    head: {"title":"crossing-the-rock","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"apple-touch-icon","sizes":"57x57","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-57x57.png"},{"rel":"apple-touch-icon","sizes":"60x60","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-60x60.png"},{"rel":"apple-touch-icon","sizes":"72x72","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-72x72.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-76x76.png"},{"rel":"apple-touch-icon","sizes":"114x114","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-114x114.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-120x120.png"},{"rel":"apple-touch-icon","sizes":"144x144","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-144x144.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-152x152.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Fimg\u002Ffavicon\u002Fapple-icon-180x180.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Fimg\u002Ffavicon\u002Fandroid-icon-192x192.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-32x32.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"96x96","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-96x96.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Fimg\u002Ffavicon\u002Ffavicon-16x16.png"}],"script":[{"hid":"gtm-script","innerHTML":"\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https:\u002F\u002Fwww.googletagmanager.com\u002Fgtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P5GLF4HR');\n        ","type":"text\u002Fjavascript","charset":"utf-8"}],"__dangerouslyDisableSanitizersByTagID":{"gtm-script":["innerHTML"]},"style":[]},
 
     store,
     router,
@@ -245,6 +246,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_locomotiveScroll_749f05df === 'function') {
     await nuxt_plugin_locomotiveScroll_749f05df(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_gtmconsentclient_7a207c55 === 'function') {
+    await nuxt_plugin_gtmconsentclient_7a207c55(app.context, inject)
   }
 
   // Lock enablePreview in context
