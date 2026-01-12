@@ -81,6 +81,9 @@
             <div class="col-12 border-top py-2">
               <div class="text-center text-sm-right text-white pb-5 pb-sm-3">
                 {{ footer_labels[3] }}
+                - <nuxt-link to="privacy">
+                Privacy policy
+              </nuxt-link>
               </div>
             </div>
 
